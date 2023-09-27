@@ -73,7 +73,6 @@ def test_unique_elements():
     assert isinstance(l, list)
     assert len(l) == 10
     assert l == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    print (l)
 
 
 def test_dicts():
@@ -90,4 +89,4 @@ def test_dicts():
 
     assert isinstance(d, dict)
     assert len(d) == 5
-    print(d)
+    print(second)
